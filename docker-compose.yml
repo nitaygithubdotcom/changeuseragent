@@ -3,7 +3,7 @@ services:
     scrapy:
         container_name: scrapy
         # build: .
-        image: nitaydockerhub/scrapy:0.1
+        image: nitaydockerhub/changeuseragent_scrapy:0.2
         volumes: 
             - ./:/app/
         working_dir: /app/useragent
