@@ -21,6 +21,8 @@ RUN python3 -m pip install --upgrade \
 		wheel && \
 	python3 -m pip install --upgrade scrapy
 
+RUN python3 -m pip install scrapy-user-agents
+
 
 
 # CMD ["scrapy", "shell", "--nolog"]
