@@ -21,7 +21,6 @@ RUN python3 -m pip install --upgrade \
 		wheel && \
 	python3 -m pip install --upgrade scrapy
 
-RUN python3 -m pip install --upgrade pymongo
 
 
 # CMD ["scrapy", "shell", "--nolog"]
