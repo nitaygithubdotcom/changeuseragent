@@ -7,4 +7,4 @@ services:
         volumes: 
             - ./:/app/
         working_dir: /app/useragent
-        command: ["scrapy","crawl","changeuser"]
+        command: ["scrapy","crawl","changeuser","-o","data.json"]
